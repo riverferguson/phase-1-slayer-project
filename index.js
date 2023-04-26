@@ -20,3 +20,4 @@ const fetchData = () => {
         displayAlbumInfo(albums[0]);
       });
   };
+  fetchData();
