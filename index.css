@@ -1,10 +1,14 @@
 .dropbtn {
-    background-color: #4CAF50;
-    color: white;
+    background-color: grey;
+    color: black;
     padding: 16px;
     font-size: 16px;
     border: none;
     cursor: pointer;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: serif;
 }
 
 /* Style the dropdown content (hidden by default) */
@@ -33,5 +37,87 @@
   }
 
   .cursor-style {
-    cursor: url("./images.mousover/rocknroll-symbol.png"), pointer;
+    cursor: url("./images.mousover/rocknrollsymbol.png"), pointer;
+  }
+
+  body {
+    background-color: grey;
+  }
+
+  #title {
+    text-align: center;
+    font-family: fantasy;
+
+  }
+
+  #album-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+  }
+
+  #album-list {
+    background-color: grey;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+  }
+
+  #description {
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+
+  #likes {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: grey;
+  }
+
+  #amount {
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #label {
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #review {
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(164, 155, 155);
+  }
+
+  li {
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #review-button {
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: grey;
   }
