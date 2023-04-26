@@ -40,3 +40,8 @@ const fetchData = () => {
     releaseHeader.textContent = album.release_year;
     description.textContent = album.description;
   };
+
+  const handleSelection = (e) => {
+    const selectedId = parseInt(e.target.value);
+    if (selectedId) {
+      fetch(`http://localhost:3000/albums/${selectedId}`)
