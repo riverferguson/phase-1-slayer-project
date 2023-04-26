@@ -57,3 +57,7 @@ const addReview = (review) => {
   li.textContent = review;
   reviewList.append(li);
 };
+
+reviewForm.addEventListener("submit", (e) => {
+    e.preventDefault();
+    const review = e.target.review.value;
