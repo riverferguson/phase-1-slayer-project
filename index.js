@@ -61,3 +61,7 @@ const addReview = (review) => {
 reviewForm.addEventListener("submit", (e) => {
     e.preventDefault();
     const review = e.target.review.value;
+    addReview(review);
+  e.target.reset();
+  sendReviews(review);
+});
