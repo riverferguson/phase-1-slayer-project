@@ -65,3 +65,8 @@ reviewForm.addEventListener("submit", (e) => {
   e.target.reset();
   sendReviews(review);
 });
+
+const sendReviews = (review) => {
+    const currentAlbum = document.querySelector("#title").dataset;
+    const currentId = currentAlbum.albumId;
+    reviews.push(review);
