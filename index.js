@@ -75,4 +75,16 @@ const sendReviews = (review) => {
     headers: {
       "Content-Type": "application/json",
     },
-    
+    body: JSON.stringify({
+        reviews: reviews,
+      }),
+    }).then(function (res) {
+      return res.json();
+    });
+  };
+
+  changeCursor.addEventListener("mouseover", (e) => {
+    changeCursor.classList.add("cursor-style");
+  });
+
+  
