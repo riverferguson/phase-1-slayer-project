@@ -25,3 +25,8 @@ const fetchData = () => {
   const displayAlbum = (album) => {
     const albumTag = document.createElement("option");
     albumTag.textContent = album.title;
+    albumTag.value = album.id;
+    albumList.appendChild(albumTag);
+  };
+
+  
