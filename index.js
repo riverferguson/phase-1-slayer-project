@@ -70,3 +70,9 @@ const sendReviews = (review) => {
     const currentAlbum = document.querySelector("#title").dataset;
     const currentId = currentAlbum.albumId;
     reviews.push(review);
+    fetch(`http://localhost:3000/albums/${currentId}`, {
+    method: "PATCH",
+    headers: {
+      "Content-Type": "application/json",
+    },
+    
