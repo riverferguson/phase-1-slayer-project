@@ -11,3 +11,12 @@ const likeBtn = document.querySelector("#likes");
 const likeAmount = document.querySelector("#amount");
 const changeCursor = document.querySelector("#album-image");
 let reviews = [];
+
+const fetchData = () => {
+    fetch(`http://localhost:3000/albums`)
+      .then((response) => response.json())
+      .then((albums) => {
+        albums.forEach((album) => displayAlbum(album));
+        displayAlbumInfo(albums[0]);
+      });
+  };
