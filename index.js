@@ -103,3 +103,7 @@ const sendReviews = (review) => {
         headers: {
           "Content-Type": "application/json",
         },
+        body: JSON.stringify({
+            likes: currentLikes + 1,
+          }),
+        })
