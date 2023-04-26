@@ -6,3 +6,10 @@
     border: none;
     cursor: pointer;
   }
+
+   /* Style the dropdown content (hidden by default) */
+   .dropdown-content {
+    display: none;
+    position: absolute;
+    z-index: 1;
+  }
