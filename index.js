@@ -45,3 +45,9 @@ const fetchData = () => {
     const selectedId = parseInt(e.target.value);
     if (selectedId) {
       fetch(`http://localhost:3000/albums/${selectedId}`)
+      .then((response) => response.json())
+      .then((album) => displayAlbumInfo(album))
+      .catch((error) => alert(error));
+  }
+};
+
