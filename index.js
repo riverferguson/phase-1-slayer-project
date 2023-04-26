@@ -90,3 +90,7 @@ const sendReviews = (review) => {
   changeCursor.addEventListener("mouseout", (e) => {
     changeCursor.classList.remove("cursor-style");
   });
+
+  likeBtn.addEventListener("click", function (e) {
+    updateLike(parseInt(e.target.nextElementSibling.textContent));
+  })
