@@ -29,4 +29,7 @@ const fetchData = () => {
     albumList.appendChild(albumTag);
   };
 
-  
+  const displayAlbumInfo = (album) => {
+    albumTitle.dataset.albumId = album.id;
+    likeAmount.textContent = album.likes;
+    reviewList.textContent = "";
