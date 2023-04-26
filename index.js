@@ -99,3 +99,7 @@ const sendReviews = (review) => {
   function updateLike(currentLikes) {
     const currentId = parseInt(document.querySelector("#title").dataset.albumId);
     fetch(`http://localhost:3000/albums/${currentId}`, {
+        method: "PATCH",
+        headers: {
+          "Content-Type": "application/json",
+        },
