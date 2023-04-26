@@ -87,4 +87,6 @@ const sendReviews = (review) => {
     changeCursor.classList.add("cursor-style");
   });
 
-  
+  changeCursor.addEventListener("mouseout", (e) => {
+    changeCursor.classList.remove("cursor-style");
+  });
