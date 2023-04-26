@@ -94,3 +94,8 @@ const sendReviews = (review) => {
   likeBtn.addEventListener("click", function (e) {
     updateLike(parseInt(e.target.nextElementSibling.textContent));
   })
+
+
+  function updateLike(currentLikes) {
+    const currentId = parseInt(document.querySelector("#title").dataset.albumId);
+    fetch(`http://localhost:3000/albums/${currentId}`, {
