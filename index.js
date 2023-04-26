@@ -51,3 +51,6 @@ const fetchData = () => {
   }
 };
 
+albumList.addEventListener("change", handleSelection);
+const addReview = (review) => {
+  const li = document.createElement("li");
