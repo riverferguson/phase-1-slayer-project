@@ -21,3 +21,7 @@ const fetchData = () => {
       });
   };
   fetchData();
+
+  const displayAlbum = (album) => {
+    const albumTag = document.createElement("option");
+    albumTag.textContent = album.title;
