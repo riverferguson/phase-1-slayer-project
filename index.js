@@ -33,3 +33,7 @@ const fetchData = () => {
     albumTitle.dataset.albumId = album.id;
     likeAmount.textContent = album.likes;
     reviewList.textContent = "";
+    reviews = album.reviews;
+    album.reviews.forEach(addReview);
+    albumImage.src = album.image;
+    albumTitle.textContent = album.title;
