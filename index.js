@@ -37,3 +37,6 @@ const fetchData = () => {
     album.reviews.forEach(addReview);
     albumImage.src = album.image;
     albumTitle.textContent = album.title;
+    releaseHeader.textContent = album.release_year;
+    description.textContent = album.description;
+  };
