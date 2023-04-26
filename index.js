@@ -107,3 +107,10 @@ const sendReviews = (review) => {
             likes: currentLikes + 1,
           }),
         })
+        .then(function (res) {
+            return res.json();
+          })
+          .then(function (updatedAlbumObj) {
+            likeAmount.textContent = `${updatedAlbumObj.likes}`;
+          });
+      }
