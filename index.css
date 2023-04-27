@@ -39,6 +39,10 @@
 
   }
 
+  #top {
+    background-color: black;
+  }
+
   #album-image {
     display: block;
     margin-left: auto;
