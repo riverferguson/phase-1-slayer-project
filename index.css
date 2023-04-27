@@ -28,7 +28,7 @@
 }
 
 body {
-  background-color: red;
+  background-color: rgb(174, 10, 10);
 }
 
 #title {
@@ -83,7 +83,7 @@ body {
   margin-right: 20%;
   font-family: monospace;
   font-style: italic;
-  font-size: larger;
+  font-size: 20px;
 }
 
 #likes {
@@ -143,5 +143,10 @@ li {
   border-radius: 20px;
   box-shadow: 3px 3px black;
   padding: 5px;
+  font-family: monospace;
+}
+
+#year-released {
+  text-align: center;
   font-family: monospace;
 }
