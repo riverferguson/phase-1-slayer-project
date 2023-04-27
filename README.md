@@ -1,4 +1,5 @@
 
+
 # Slayer Album Review
 
 This single-page javaScript application allows the user to view 10 of the most popular Slayer albums, their cover art, and reviews for the album. It also allows the user to interact with the site to leave their reviews and like their favorite albums.
@@ -12,6 +13,7 @@ Insure that you have javaScript and json server installed on your computer.
 
 Then fork and clone, then copy SSH code line.
 
+
 In your terminal type `git clone pasted-url`
 
 Kill whatever your current json server with `ctrl + c`
@@ -22,6 +24,7 @@ Then open the index html file in your browser.
 
 ## Functionality
 
+>>>>>>> 1d6f53e5ac325438ec94195fa26b4c16a31b5006
 The webpage will allow the user to interact in 3 ways.
 
 Changing the selected album from the drop down menu.
