@@ -1,15 +1,4 @@
-.dropbtn {
-    background-color: grey;
-    color: black;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    font-family: serif;
-}
+
 
 /* Style the dropdown content (hidden by default) */
 .dropdown-content {
@@ -46,7 +35,7 @@
 
   #title {
     text-align: center;
-    font-family: fantasy;
+    font-family: monospace;
 
   }
 
@@ -54,6 +43,8 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
     width: 30%;
   }
 
@@ -63,6 +54,16 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
+    background-color: rgb(100, 93, 93);
+    border: none;
+    border-radius: 20px;
+    box-shadow: 3px 3px black;
+    padding: 5px;
+    font-family: monospace;
+    font-style: italic;
+    font-size: 24px;
+
+
   }
 
   .logo {
@@ -76,13 +77,20 @@
     text-align: center;
     margin-left: 20%;
     margin-right: 20%;
+    font-family: monospace;
+    font-style: italic;
+    font-size: larger;
   }
 
   #likes {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    background-color: grey;
+    background-color: rgb(100, 93, 93);
+    border: none;
+    border-radius: 20px;
+    box-shadow: 3px 3px black;
+    padding: 5px;
   }
 
   #amount {
@@ -97,6 +105,9 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
+    font-family: monospace;
+    font-style: italic;
+    font-size: 28px;
   }
 
   #review {
@@ -119,5 +130,9 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    background-color: grey;
+    background-color: rgb(100, 93, 93);
+    border: none;
+    border-radius: 20px;
+    box-shadow: 3px 3px black;
+    padding: 5px;
   }
