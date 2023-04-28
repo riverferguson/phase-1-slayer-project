@@ -33,7 +33,7 @@ Like their favorite albums (as many times as you'd like!)
 
 Leave reviews for albums (Positive or negative!)
 
-![Screenshot](./images/slayer%20reviews%20pic.png)
+![Screenshot](./images/updated%20review%20pic.png)
 
 Additionaly when the user drags their mouse over the album cover art they will see their cursor changed to a pretty 'hip' and cool cursor.
 
