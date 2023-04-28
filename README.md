@@ -25,15 +25,15 @@ The webpage will allow the user to interact in 3 ways.
 
 Changing the selected album from the drop down menu.
 
-![Screeenshot](./images/Slayer%20Page%20Drop%20Down.png)
+![Screeenshot](./images/drop%20button%20picture.png)
 
 Like their favorite albums (as many times as you'd like!)
 
-![Screenshot](./images/Slayer%20Page%20Like%20Button.png)
+![Screenshot](./images/slayer%20likes.png)
 
 Leave reviews for albums (Positive or negative!)
 
-![Screenshot](./images/Slayer%20Page%20Reviews.png)
+![Screenshot](./images/slayer%20reviews%20pic.png)
 
 Additionaly when the user drags their mouse over the album cover art they will see their cursor changed to a pretty 'hip' and cool cursor.
 
