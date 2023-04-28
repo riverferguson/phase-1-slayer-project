@@ -28,7 +28,7 @@
 }
 
 body {
-  background-color: rgb(174, 10, 10);
+  background-color: rgb(140, 41, 41);
 }
 
 #title {
@@ -52,13 +52,12 @@ body {
 }
 
 #album-list {
-  background-color: grey;
+  background-color: rgb(167, 163, 163);
   text-align: center;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 10px;
-  background-color: rgb(100, 93, 93);
+  margin-bottom: 10px;;
   border: none;
   border-radius: 20px;
   box-shadow: 3px 3px black;
@@ -85,6 +84,7 @@ body {
   font-family: monospace;
   font-style: italic;
   font-size: 20px;
+  font-weight: bolder;
 }
 
 #likes {
@@ -92,12 +92,13 @@ body {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 10px;
-  background-color: rgb(100, 93, 93);
+  background-color: rgb(167, 163, 163);
   border: none;
   border-radius: 20px;
   box-shadow: 3px 3px black;
   padding: 5px;
   font-family: monospace;
+  font-weight: bolder;
 }
 
 #amount {
@@ -140,12 +141,13 @@ li {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  background-color: rgb(100, 93, 93);
+  background-color: rgb(167, 163, 163);
   border: none;
   border-radius: 20px;
   box-shadow: 3px 3px black;
   padding: 5px;
   font-family: monospace;
+  font-weight: bolder;
 }
 
 #year-released {
